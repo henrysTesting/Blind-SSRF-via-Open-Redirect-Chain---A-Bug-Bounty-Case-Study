@@ -30,17 +30,6 @@ Outbound request from the target's proxy was confirmed in my redirector's
 access logs. Active exploitation of the metadata endpoint was deliberately
 avoided. See [§ What I did not do](./methodology.md#what-i-did-not-do).
 
-## Why I'm publishing this
-
-Recruiters and hiring managers reading bug-bounty portfolios get a lot of
-"I found X" posts. This one is structured to answer the question they're
-actually asking:
-
-> *Does this person have a repeatable methodology, or did they get lucky once?*
-
-The finding is one paragraph. The methodology is the rest of the repo, and
-it's the part that generalizes to the next target.
-
 ## How I got here
 
 The SSRF wasn't the first thing I tried. It was the surviving lead after
