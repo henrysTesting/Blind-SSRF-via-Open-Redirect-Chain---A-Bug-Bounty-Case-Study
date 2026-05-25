@@ -12,7 +12,7 @@ the result. The repo is structured so a reviewer can read in any order:
 
 | File | Purpose |
 |---|---|
-| [`methodology.md`](./methodology.md) | The reusable 3-step probe I now apply to any user-supplied URL parameter. Lead with this. |
+| [`methodology.md`](./methodology.md) | The reusable 3-step probe I now apply to any user-supplied URL parameter. |
 | [`report.md`](./report.md) | The vulnerability report itself: endpoint, repro steps, impact, remediation, recon context. Anonymized. |
 | [`checklist.md`](./checklist.md) | One-page operator checklist derived from the methodology. |
 | `README.md` | This file. TL;DR + framing + the case for systematic methodology. |
@@ -66,7 +66,7 @@ weakest.
   my job and is out of scope on essentially every program.
 - **Writeup quality**: separate audiences. The report is for the security
   team that has to triage and fix; the methodology is for the next person
-  (including me) who has to apply the same playbook on a different target.
+  (including me) who wants to apply the same playbook on different targets.
 
 ## Evidence
 
